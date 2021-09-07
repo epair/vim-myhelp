@@ -26,9 +26,11 @@ CONTENTS
 ===============================================================================
 2. Visual Mode                                         *myhelp-visual*
 
-   - J   : Join the highlighted lines, removing unnecessary whitespace.
-   - vab : Select a "block" (works differently in different langs)
-   - vat : Select a <tag> and its contents (use i instead of a for just
+   - cs"'  : Change surrounding double quotations to single quotations
+   - <C-]> : Find ruby method definition
+   - J     : Join the highlighted lines, removing unnecessary whitespace.
+   - vab   : Select a "block" (works differently in different langs)
+   - vat   : Select a <tag> and its contents (use i instead of a for just
      contents)
 
 ===============================================================================
