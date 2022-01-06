@@ -1,4 +1,4 @@
-*myhelp.txt*    For Vim version 8.2     Last change: 2021 August 15
+*myhelp.txt*    For Vim version 8.2     Last change: 2022 January 06
 *myhelp*
 
 Emmett's cheatsheet of Vim/Neovim stuff he always forgets.
@@ -22,6 +22,8 @@ CONTENTS
    - ~           : Uppercase a letter (works on ranges)
    - /<C-R><C-W> : Pull word into command line (or search)
    - :reg        : List registers (and show what’s in them)
+   - <C-W>=      : Sets all splits to equal sizes
+   - <C-O>       : Jumps back to previous cursor location
 
 ===============================================================================
 2. Visual Mode                                         *myhelp-visual*
