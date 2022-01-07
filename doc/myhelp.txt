@@ -8,8 +8,8 @@ CONTENTS
 
         1. Normal Mode.......................................|myhelp-normal|
         2. Visual Mode.......................................|myhelp-visual|
-        2. Window Manipulation...............................|myhelp-windows|
-        3. Rebuilding this file
+        3. Window Manipulation...............................|myhelp-window|
+        4. Rebuilding this file
 
 ===============================================================================
 1. Normal Mode                                         *myhelp-normal*
