@@ -1,4 +1,4 @@
-*myhelp.txt*    For Vim version 8.2     Last change: 2022 January 06
+*myhelp.txt*    For Vim version 8.2     Last change: 2022 January 07
 *myhelp*
 
 Emmett's cheatsheet of Vim/Neovim stuff he always forgets.
@@ -8,6 +8,7 @@ CONTENTS
 
         1. Normal Mode.......................................|myhelp-normal|
         2. Visual Mode.......................................|myhelp-visual|
+        2. Window Manipulation...............................|myhelp-windows|
         3. Rebuilding this file
 
 ===============================================================================
@@ -22,8 +23,8 @@ CONTENTS
    - ~           : Uppercase a letter (works on ranges)
    - /<C-R><C-W> : Pull word into command line (or search)
    - :reg        : List registers (and show what’s in them)
-   - <C-W>=      : Sets all splits to equal sizes
    - <C-O>       : Jumps back to previous cursor location
+   - <C-W>f      : Open file under cursor in horizontal split
 
 ===============================================================================
 2. Visual Mode                                         *myhelp-visual*
@@ -36,7 +37,15 @@ CONTENTS
      contents)
 
 ===============================================================================
-3. Rebuilding this file.
+3. Window Manipulation
+
+   - <C-w>=      : Sets all splits to equal sizes
+   - <C-w><C-r>  : Swap the position of two split windows
+   - <C-w>K      : Change two vertically split windows to horizontally
+   - <C-w>H      : Change two horizontally split windows to vertically
+
+===============================================================================
+4. Rebuilding this file.
 
 This file is loaded as a plugin. If you ever need to rebuild the tags file, run
 this command: >
